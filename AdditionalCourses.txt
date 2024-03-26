@@ -1,0 +1,7 @@
+COMP101,Programming,Intro to Programming,4
+COMP124,Intro to DB,,5
+COMP124,Intro to DB,,5
+COMP212, Programming 3, Programming 3 concepts, 6
+COMP225,Intro to OOAD,OO Analysis and Design,5
+COMP246,OOAD2,5
+COMP346,OOAD,OO Analysis and Design2,a6

@@ -153,7 +153,7 @@ namespace WindowsFormsApp1
             this.btn_AddCourse.TabIndex = 8;
             this.btn_AddCourse.Text = "Add Course";
             this.btn_AddCourse.UseVisualStyleBackColor = true;
-            this.btn_AddCourse.Click += new System.EventHandler(this.btn_AddCourse_Click);
+            this.btn_AddCourse.Click += new System.EventHandler(this.Btn_AddCourse_Click);
             // 
             // lb_Courses
             // 
@@ -162,7 +162,7 @@ namespace WindowsFormsApp1
             this.lb_Courses.Name = "lb_Courses";
             this.lb_Courses.Size = new System.Drawing.Size(100, 95);
             this.lb_Courses.TabIndex = 9;
-            this.lb_Courses.SelectedIndexChanged += new System.EventHandler(this.lb_Courses_SelectedIndexChanged);
+            this.lb_Courses.SelectedIndexChanged += new System.EventHandler(this.Lb_Courses_SelectedIndexChanged);
             // 
             // lbl_CourseCode
             // 
@@ -281,7 +281,7 @@ namespace WindowsFormsApp1
             this.btn_AddSection.TabIndex = 26;
             this.btn_AddSection.Text = "Add Section";
             this.btn_AddSection.UseVisualStyleBackColor = true;
-            this.btn_AddSection.Click += new System.EventHandler(this.btn_AddSection_Click);
+            this.btn_AddSection.Click += new System.EventHandler(this.Btn_AddSection_Click);
             // 
             // lb_Sections
             // 
@@ -308,7 +308,7 @@ namespace WindowsFormsApp1
             this.btn_AddSectionToCourse.TabIndex = 32;
             this.btn_AddSectionToCourse.Text = "Assign Section To Course";
             this.btn_AddSectionToCourse.UseVisualStyleBackColor = true;
-            this.btn_AddSectionToCourse.Click += new System.EventHandler(this.btn_AddSectionToCourse_Click);
+            this.btn_AddSectionToCourse.Click += new System.EventHandler(this.Btn_AddSectionToCourse_Click);
             // 
             // label5
             // 
@@ -373,7 +373,7 @@ namespace WindowsFormsApp1
             this.btn_AddFaculty.TabIndex = 40;
             this.btn_AddFaculty.Text = "Add Faculty";
             this.btn_AddFaculty.UseVisualStyleBackColor = true;
-            this.btn_AddFaculty.Click += new System.EventHandler(this.btn_AddFaculty_Click);
+            this.btn_AddFaculty.Click += new System.EventHandler(this.Btn_AddFaculty_Click);
             // 
             // lb_Faculty
             // 
@@ -391,7 +391,7 @@ namespace WindowsFormsApp1
             this.btn_AssignFacultyToSection.TabIndex = 42;
             this.btn_AssignFacultyToSection.Text = "Assign Faculty To Section";
             this.btn_AssignFacultyToSection.UseVisualStyleBackColor = true;
-            this.btn_AssignFacultyToSection.Click += new System.EventHandler(this.btn_AssignFacultyToSection_Click);
+            this.btn_AssignFacultyToSection.Click += new System.EventHandler(this.Btn_AssignFacultyToSection_Click);
             // 
             // btn_LoadFile
             // 
@@ -401,7 +401,7 @@ namespace WindowsFormsApp1
             this.btn_LoadFile.TabIndex = 43;
             this.btn_LoadFile.Text = "Load File";
             this.btn_LoadFile.UseVisualStyleBackColor = true;
-            this.btn_LoadFile.Click += new System.EventHandler(this.btn_LoadFile_Click);
+            this.btn_LoadFile.Click += new System.EventHandler(this.Btn_LoadFile_Click);
             // 
             // btn_SaveFile
             // 
@@ -411,7 +411,7 @@ namespace WindowsFormsApp1
             this.btn_SaveFile.TabIndex = 46;
             this.btn_SaveFile.Text = "Save File";
             this.btn_SaveFile.UseVisualStyleBackColor = true;
-            this.btn_SaveFile.Click += new System.EventHandler(this.btn_SaveFile_Click);
+            this.btn_SaveFile.Click += new System.EventHandler(this.Btn_SaveFile_Click);
             // 
             // Cmb_Semester
             // 
@@ -495,7 +495,7 @@ namespace WindowsFormsApp1
             this.btn_Exit.TabIndex = 55;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
-            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
+            this.btn_Exit.Click += new System.EventHandler(this.Btn_Exit_Click);
             // 
             // Form1
             // 
