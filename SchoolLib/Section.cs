@@ -78,16 +78,16 @@
 			string result = string.Empty;
 			for (int i = 0; i < Students.Count - 1; i++)
 			{
-				result += String.Format("   {0}.{1}[{2}]", i, Students[0].Evaluations[i].EvaluationType, Students[0].Evaluations[i].MaxPoints);
+				result += string.Format("   {0}.{1}[{2}]", i, Students[0].Evaluations[i].EvaluationType, Students[0].Evaluations[i].MaxPoints);
 			}
 			result += "\n";
 			for (int i = 0; i < Students.Count; i++)
 			{
-				result += String.Format("{0,5}", Students[i].Student.Name);
+				result += string.Format("{0,5}", Students[i].Student.Name);
 				for (int j = 0; j < Course.NoOfEvaluations; j++)
 				{
 					Evaluation eval = Students[i].Evaluations[j];
-					result += String.Format("{0,6}/{1,2}", eval.Points, (eval.Points / eval.MaxPoints) * 100 * eval.EvaluationWeight);
+					result += string.Format("{0,6}/{1,2}", eval.Points, (eval.Points / eval.MaxPoints) * 100 * eval.EvaluationWeight);
 				}
 				result += "\n";
 			}
